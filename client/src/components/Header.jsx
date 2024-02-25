@@ -23,7 +23,7 @@ export default function Header() {
      </button>
 
     <div className=" flex gap-2 md: order-2">
-      <button className=" border-2 px-4 py- w-13 h-10  rounded-full  " >
+      <button className=" border-2 px-4 py- w-13 h-10 hidden sm:inline rounded-full  " >
         <HiMoon />
       </button>
       <Link to='/sign-in'>
